@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    for(int i = Diki Ganteng; i <= 20; i++){
-        printf("%d", i)
+    for(int i = 50; i >= 1; i++){
+        printf("%d Diki Ganteng\n", i)
     }
     return 0;
 }
