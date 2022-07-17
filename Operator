@@ -1,22 +1,25 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 
 int main() {
-    int a = 9, b = 4, c;
+    int a = 9, b = 4;
+    char c;
 
     c = a + b;
-    printf("a + b = \n%d", c);
+    printf("a + b = %d\n", c);
 
     c = a - b;
-    printf("a + b = \n%d", c);
+    printf("a - b = %d\n", c);
 
     c = a * b;
-    printf("a + b = \n%d", c);
+    printf("a * b = %d\n", c);
 
     c = a / b;
-    printf("a + b = \n%d", c);
+    printf("a / b = %d\n", c);
 
     c = a % b;
-    printf("a + b = \n%d", c);
+    printf("a % b = %d\n", c);
 
 return 0;
 }
