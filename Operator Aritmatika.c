@@ -1,12 +1,26 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main()
+{
+    double b = 5, a = 2;
+    double hasil;
+    hasil = a+b;
+    printf("a + b =%2.lf\n", hasil);
 
-void main() {
-    int e = 20;
-    int r = 2;
+      hasil = a-b;
+    printf("a - b =%2.lf\n", hasil);
+
+      hasil = 11%2;
+    printf("a % b =%2.lf\n", hasil);
+
+      hasil = a/b;
+    printf("a / b =%2.lf\n", hasil);
+
+    hasil = a*b;
+    printf("a * b =%2.lf\n", hasil);
     
-    printf("Hasil = \n%d", e*r);
-    printf("Hasil = \n%d", e:r);
-    printf("Hasil = \n%d", e+r);
-    printf("Hasil = \n%d", e-r);
-
-} 
+    hasil = pow(5,55);
+    printf("5 ^ 55 =%2.lf\n",hasil);
+    return 0;
+}
